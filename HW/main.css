@@ -1,0 +1,341 @@
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+    background-image: url(img/serverroom.webp);
+    background-repeat: repeat-y;
+    background-size: 1500px;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 100px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    background-color: rgba(53, 76, 66, 0.45);
+    background-repeat:round;
+    box-shadow: 0px 0px 10px darkslategray;
+}
+
+.typewriter {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 5px;
+  width: 22ch;
+  animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow:hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 3em;
+  text-shadow: 5px 5px 5px rgba(71, 103, 101);
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+body {
+    cursor: url('../img/robot.png'), auto;
+    font-family: 'cascadia code', monospace;
+    border-width: 10px;
+    padding: 4rem;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+nav {
+  display:flex;
+  padding: 2px;
+  background-color: transparent;
+}
+
+h2 {
+   color: whitesmoke;
+   text-shadow: 0px 0px 5px navy;
+}
+
+
+h3 {
+    margin-bottom: 10px;
+    padding: 1.5em;
+    text-indent: 10px;
+    font-size: 30px;
+    text-decoration-line:inherit;
+    text-shadow: 2px 2px 2px rgba(71, 103, 101);
+}
+
+main, header, footer, nav {
+    flex-grow: 1;
+    display: grid;
+    place-content: center;
+
+}
+
+p {
+    background-image: url(img/water.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    padding: 25px;
+    color: black;
+    text-shadow: 0px 0px 1px black;
+    line-height: 1.8;
+}
+
+ul {
+    list-style-type:none;
+    list-style-position:outside;
+    text-decoration: none;
+    font-size: larger;
+    display: flex;
+    justify-content:center;
+}
+
+a:hover {
+    color: whitesmoke;
+    text-shadow: 0px 0px 5px navy;
+    font-size: larger;
+    rotate: 30deg;
+
+}
+
+a{
+    text-decoration: none;
+    cursor: url('../img/hrcursor64.png'), auto;
+    color: navy;
+    text-shadow: 0px 0px 3px whitesmoke;
+    align-items:flex-start;
+}
+
+a:visited {
+  color: navy;
+}
+
+#topbutton {
+     background-color: grey;
+     color: black
+}
+
+.electricdreamsbutton {
+  background-image: url(img/electricdreams.png);
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 80px;
+  display:grid;
+  justify-content: space-evenly;
+}
+
+.papayawhipbutton {
+  background-image: url(img/papayawhip.png);
+  background-position: right;
+  background-size:contain;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.scapesbutton {
+    background-image: url(img/scapes.jpg);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 80px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.posterchildbutton {
+    background-image: url(img/posterchild.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.placeholderbutton {
+    background-image: url(img/placeholder.png);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 40px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.lifereviewbutton {
+    background-image: url(img/wireliminal.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.cameyeviewbutton {
+    background-image: url(img/cameyeview.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.fireplace4kbutton {
+    background-image: url(img/fireplace4k.gif);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.twofacedbutton {
+    background-image: url(img/twofacedd.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.forherabutton {
+    background-image: url(img/forhera.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.forgebutton {
+    background-image: url(img/forge.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 5px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.phoneeatsfirstbutton {
+    background-image: url(img/phoneeatsfirst.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 5px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.cherubaibutton {
+    background-image: url(img/cherubai.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.foamsprungbutton {
+    background-image: url(img/foamsprungbutton.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.badconnectionbutton {
+    background-image: url(img/badconnection.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.confabulationsbutton {
+    background-image: url(img/confabulationss.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.attachmentinjurybutton {
+    background-image: url(img/attachmentinjury.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 30px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.copybutton {
+    background-image: url(img/copyy.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.belowthefoldbutton {
+    background-image: url(img/belowthefold.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
